@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\kinglib">
+      <UniqueIdentifier>{71369e4a-8c3f-454a-bdba-5c82895475ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kinglib">
+      <UniqueIdentifier>{6821ade4-45c6-4243-9e66-0f5cdb1a863b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{0fdfa59a-cd07-4efd-b999-c2340a5dbd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{8ede2da7-25c2-4459-9b87-254153fb61f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{d5d4e436-45f7-4721-a27f-1b2e4a9f97c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{aeb3d4bd-4e4a-4118-b2d4-b42e76e74f9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\external\include\king\SdlWindow.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\Engine.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\Font.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\GlContext.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\Sdl.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\SdlSurface.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Constants.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Diamond.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\GameObject.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Level.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Utils.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\GameManager.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UserInterface\UserInterface.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UserInterface\InGameHud.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UserInterface\UiObject.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\external\include\king\Engine.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\Font.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\GlContext.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\Sdl.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\SdlSurface.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\SdlWindow.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\Updater.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Constants.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Diamond.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\GameObject.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Level.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Utils.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\GameManager.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UserInterface\InGameHud.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UserInterface\UiObject.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UserInterface\UserInterface.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Worktest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
